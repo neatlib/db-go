@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/neatio-project/go-common"
+	. "github.com/neatlib/common-go"
 )
 
 func BenchmarkRandomReadsWrites2(b *testing.B) {

@@ -1,6 +1,6 @@
 package db
 
-import . "github.com/neatio-project/go-common"
+import . "github.com/neatlib/common-go"
 
 type DB interface {
 	Get([]byte) []byte
